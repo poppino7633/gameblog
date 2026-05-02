@@ -2,7 +2,7 @@
 
 A personal game review site built with React + Vite.
 
-## setup
+## Setup
 
 ```bash
 npm install
@@ -11,7 +11,7 @@ npm run dev
 
 Then open http://localhost:5173
 
-## adding a new review
+## Adding a new review
 
 Open `src/data/games.js` and add a new object to the array:
 
