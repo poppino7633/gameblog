@@ -19,7 +19,7 @@ Open `src/data/games.js` and add a new object to the array:
 {
   slug: "hollow-knight",       // used in the URL: /review/hollow-knight
   title: "Hollow Knight",
-  image: "/images/hollow-knight.jpg"
+  image: "/images/hollow-knight.jpg",
   genre: "Metroidvania",
   developer: "Team Cherry",
   year: 2017,
