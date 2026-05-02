@@ -37,23 +37,3 @@ Open `src/data/games.js` and add a new object to the array:
   ],
 },
 ```
-
-That's it. No other files need to change.
-
-## project structure
-
-```
-src/
-  data/
-    games.js          ← EDIT THIS to add/change reviews
-  components/
-    Nav.jsx
-    Footer.jsx
-  pages/
-    Home.jsx          ← homepage grid
-    AllReviews.jsx    ← list of all reviews
-    ReviewPage.jsx    ← individual review (reads from games.js)
-    NotFound.jsx      ← 404
-  App.jsx             ← routing setup
-  index.css           ← all styles
-```
