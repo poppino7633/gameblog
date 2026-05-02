@@ -1,4 +1,4 @@
-# my game blog
+# DaveGames game reviews
 
 A personal game review site built with React + Vite.
 
