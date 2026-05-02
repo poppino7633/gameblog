@@ -7,8 +7,7 @@ export default function Home() {
   return (
     <main className="page">
       <header className="home-header">
-        <h1>games i've played,<br /><em>opinions i have.</em></h1>
-        <p>personal reviews — no sponsors, no scores out of ten from a committee.</p>
+        <h1>I've played some games, <br /><em>I have some takes</em></h1>
       </header>
 
       <div className="game-grid">
@@ -18,7 +17,7 @@ export default function Home() {
             className="game-card"
             onClick={() => navigate(`/review/${game.slug}`)}
           >
-            <div className="game-card-emoji">{game.emoji}</div>
+            <img src={game.image} alt={game.title} className="game-card-img" />
             <div className="game-card-title">{game.title}</div>
             <div className="game-card-meta">
               <span>{game.genre}</span>

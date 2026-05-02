@@ -21,14 +21,13 @@ export default function ReviewPage() {
   return (
     <main className="page review-page">
 
-      {/* Back link */}
       <button className="back-link" onClick={() => navigate('/reviews')}>
-        ← all reviews
+        <nbsp />← All reviews <nbsp />
       </button>
 
-      {/* Page header */}
       <header className="review-page-header">
-        <h1>{game.emoji} {game.title}</h1>
+        <img src={game.image} alt={game.title} className="review-banner" />
+        <h1>{game.title}</h1>
         <div className="review-page-meta">
           <span>{game.genre}</span>
           <span>{game.developer}</span>
@@ -88,10 +87,10 @@ export default function ReviewPage() {
             <div className="sidebar-section-title">info</div>
             <table className="info-table">
               <tbody>
-                <tr><td>developer</td><td>{game.developer}</td></tr>
-                <tr><td>platform</td><td>{game.platform}</td></tr>
-                <tr><td>genre</td><td>{game.genre}</td></tr>
-                <tr><td>released</td><td>{game.year}</td></tr>
+                <tr><td>Developer</td><td>{game.developer}</td></tr>
+                <tr><td>Platform</td><td>{game.platform}</td></tr>
+                <tr><td>Genre</td><td>{game.genre}</td></tr>
+                <tr><td>Released</td><td>{game.year}</td></tr>
               </tbody>
             </table>
           </div>

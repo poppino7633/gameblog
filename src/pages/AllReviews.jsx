@@ -18,7 +18,7 @@ export default function AllReviews() {
             className="review-list-item"
             onClick={() => navigate(`/review/${game.slug}`)}
           >
-            <span className="rli-emoji">{game.emoji}</span>
+            <img src={game.image} alt={game.title} className="rli-img" />
             <div className="rli-body">
               <div className="rli-title">{game.title}</div>
               <div className="rli-meta">

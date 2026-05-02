@@ -5,14 +5,14 @@ export default function Nav() {
     <nav>
       <div className="nav-inner">
         <NavLink to="/" className="nav-logo">
-          my<span>games</span>.blog
+          dave<span>games</span>.blog
         </NavLink>
         <div className="nav-links">
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
-            home
+            Home
           </NavLink>
           <NavLink to="/reviews" className={({ isActive }) => isActive ? 'active' : ''}>
-            all reviews
+            All reviews
           </NavLink>
         </div>
       </div>
