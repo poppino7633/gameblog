@@ -1,11 +1,6 @@
-// ─────────────────────────────────────────────────────────────
-//  games.js  —  add a new game by copying one of these objects
-// ─────────────────────────────────────────────────────────────
-//
 //  Fields:
 //    slug        unique URL identifier, e.g. "hollow-knight"
 //    title       display name
-//    emoji       one emoji used as cover art placeholder
 //    genre       short genre label, e.g. "RPG", "FPS", "Horror"
 //    developer   studio name
 //    year        release year (number)
@@ -13,10 +8,9 @@
 //    score       number 0–100
 //    verdict     one-word verdict shown under the score
 //    excerpt     one sentence shown on the homepage card
-//    pros        array of strings (keep each one short)
-//    cons        array of strings (keep each one short)
-//    review      array of strings — each string is one paragraph
-//                Write these in your own voice!
+//    pros        array of strings 
+//    cons        array of strings 
+//    review      array of strings 
 
 const games = [
   {
