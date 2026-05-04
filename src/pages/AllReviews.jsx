@@ -7,8 +7,8 @@ export default function AllReviews() {
   return (
     <main className="page">
       <header className="reviews-header">
-        <h1>all reviews</h1>
-        <p>everything i've written so far, newest first.</p>
+        <h1>All reviews</h1>
+        <p>Everything i've written so far, newest first.</p>
       </header>
 
       <div className="review-list">
