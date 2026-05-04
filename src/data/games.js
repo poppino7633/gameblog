@@ -16,7 +16,7 @@ const games = [
   {
     slug: "persona-5-royal",
     title: "Persona 5 Royal",
-    image: "/images/p5r.jpg",
+    image: "/gameblog/images/p5r.jpg",
     genre: "JRPG",
     developer: "Atlus",
     year: 2019,
@@ -49,7 +49,7 @@ const games = [
   {
     slug: "soma",
     title: "SOMA",
-    image: "/images/soma.jpg",
+    image: "/gameblog/images/soma.jpg",
     genre: "Sci-Fi Horror",
     developer: "Frictional Games",
     year: 2015,
@@ -75,7 +75,7 @@ const games = [
   {
     slug: "war-thunder",
     title: "War Thunder",
-    image: "/images/warthunder.jpg",
+    image: "/gameblog/images/warthunder.jpg",
     genre: "Military / F2P",
     developer: "Gaijin Entertainment",
     year: 2013,
