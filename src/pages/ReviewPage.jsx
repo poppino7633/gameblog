@@ -5,15 +5,12 @@ export default function ReviewPage() {
   const { slug } = useParams()
   const navigate = useNavigate()
 
-  // Find the game matching the URL slug
   const game = games.find(g => g.slug === slug)
 
-  // If no game found, show 404
   if (!game) {
     return (
       <main className="page not-found">
-        <h1>review not found</h1>
-        <p>no game with that slug exists in games.js</p>
+        <h1>Review not found</h1>
       </main>
     )
   }
@@ -39,14 +36,14 @@ export default function ReviewPage() {
       {/* Two-column layout */}
       <div className="review-layout">
 
-        {/* Left: your written review */}
+        {/* Review text */}
         <article className="review-text">
           {game.review.map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}
         </article>
 
-        {/* Right: sidebar with score, pros/cons, info */}
+        {/* Right: sidebar */}
         <aside className="review-sidebar">
 
           {/* Score */}

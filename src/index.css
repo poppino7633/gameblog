@@ -412,9 +412,13 @@ footer {
   gap: 6px;
   font-family: var(--mono);
   font-size: 0.75rem;
+  background-color: var(--bg);
+  border-radius: 5px;
+  border-color: var(--border);
   color: var(--ink-muted);
   margin-bottom: 32px;
   transition: color .15s;
+  padding: 3px;
 }
 
 .back-link:hover {

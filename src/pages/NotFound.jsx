@@ -5,9 +5,9 @@ export default function NotFound() {
   return (
     <main className="page not-found">
       <h1>404</h1>
-      <p>this page doesn't exist.</p>
+      <p>This page doesn't exist.</p>
       <br />
-      <button className="back-link" onClick={() => navigate('/')}>← go home</button>
+      <button className="back-link" onClick={() => navigate('/')}>← Go home</button>
     </main>
   )
 }
